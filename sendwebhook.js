@@ -17,7 +17,7 @@ const sendWebhook = async () => {
         'Content-Type': 'application/json', // Tipo de conteúdo da requisição
       },
     });
-    console.log('Webhook enviado com sucesso ao destino ', response.data);
+    console.log('Webhook enviado com sucesso ao destino ','novo teste ', response.data);
   } catch (error) {
     console.error('Erro ,', error.message);
   }
